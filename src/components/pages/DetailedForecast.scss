@@ -1,0 +1,119 @@
+.detailed-forecast-container {
+	width: 100vw;
+	height: 100vh;
+	background-color: rgb(245, 245, 245);
+	position: absolute;
+
+	.detailed-forecast-block {
+		margin: 30px 0px 0px 20px;
+		background-color: #fff;
+		width: 1320px;
+		height: 260px;
+		border-radius: 16px;
+		padding: 10px 10px 10px 10px;
+		h3 {
+			margin-left: 20px;
+		}
+
+		.hours {
+			margin-top: 20px;
+			width: 100px;
+			height: 50px;
+			display: flex;
+			gap: 14px;
+			.vl {
+				border-left: 1px solid rgb(177, 177, 177);
+				height: 180px;
+			}
+
+			.hour {
+				color: rgb(41, 41, 41);
+				.item-hour {
+				}
+				.data {
+					color: rgb(164, 164, 164);
+				}
+				.icon {
+					img {
+						width: 50px;
+						height: 50px;
+					}
+				}
+				.day-tempurate {
+				}
+				.night-tempurate {
+				}
+				.description {
+					color: rgb(93, 93, 93);
+					font-weight: 300;
+				}
+			}
+		}
+	}
+	.fcfm-header {
+		margin: 40px 0px 0px 50px;
+	}
+	.fcfm-block {
+		margin-top: 40px;
+		.fcfm-days {
+			display: flex;
+			justify-content: center;
+			gap: 175px;
+			.weekend {
+				color: red;
+			}
+		}
+		.hr-line {
+			margin: 20px 0;
+			padding: 0;
+			height: 0;
+			border: none;
+			border-top: 1px solid rgb(158, 158, 158);
+			width: 1300px;
+			margin-left: 34px;
+		}
+		.dates {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 80px;
+			.date {
+				margin-top: 25px;
+				margin-bottom: 25px;
+				.foracase-block {
+					display: flex;
+					justify-content: center;
+				}
+				div {
+					color: rgb(59, 59, 59);
+				}
+				.weekend {
+					color: red;
+				}
+				.img {
+					width: 55px;
+					height: 55px;
+				}
+				.tempurates {
+					.tempurate1 {
+						font-weight: 400;
+						font-size: 25px;
+						margin-left: 10px;
+					}
+					.tempurate2 {
+						font-size: 20px;
+						margin-left: 10px;
+						color: rgb(128, 128, 128);
+					}
+				}
+			}
+		}
+	}
+	.hr-line2 {
+		margin: 20px 0;
+		padding: 0;
+		height: 0;
+		border: none;
+		border-top: 1px solid rgb(158, 158, 158);
+	}
+}
